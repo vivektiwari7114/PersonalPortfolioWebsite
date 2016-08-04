@@ -208,56 +208,162 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+/* ------------------------------------------------------------------ */
+/* d. Portfolio Section
+/* ------------------------------------------------------------------ */
+#portfolio .text-portfolio{
+    padding: 2% 2% 2% 2%;
+}
+
+#portfolio .works-port{
+padding: 2% 2% 2% 2%;
+}
+
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. Education Section
 /* ------------------------------------------------------------------ */
 .all-text-align{
     text-align: justify;
+    margin-top: 72px;
     text-justify: inter-word;
+   
 }
-#resume {
+#education {
    background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
    overflow: hidden;
+   padding-top: 45px;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#education a, #education a:visited  { color: #11ABB0; }
+#education a:hover, #education a:focus { color: #313131; }
 
-#resume h1 {
+#education h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#education h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume h3 {
+#education h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#education .header-col { padding-top: 9px; }
+#education .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#education .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#education .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#education .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/*----------------------------------------------*/
+/*	Work Experience
+/*----------------------------------------------*/
+#workExperience {
+   background: #fff;
+   overflow: hidden;
+}
+
+#workExperience a, #workExperience a:visited  { color: #11ABB0; }
+#workExperience a:hover, #workExperience a:focus { color: #313131; }
+
+#workExperience h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#workExperience h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#workExperience h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#workExperience .header-col { padding-top: 9px; }
+#workExperience .main-col { padding-right: 10%; }
+
+.workExperience, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#workExperience .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#workExperience .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#workExperience .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+/*----------------------------------------------*/
+/*	Projects 
+/*----------------------------------------------*/
+
+#project {
+   background: #fff;
+   overflow: hidden;
+}
+
+#project a, #project a:visited  { color: #11ABB0; }
+#project a:hover, #project a:focus { color: #313131; }
+
+#project h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#project h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#project h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#project .header-col { padding-top: 9px; }
+#project .main-col { padding-right: 10%; }
+
+.project, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#project .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#project .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#project .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }

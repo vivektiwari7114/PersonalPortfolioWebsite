@@ -24,47 +24,12 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/layout.css">
      <link rel="stylesheet" href="css/media-queries.css">
+     <link rel="stylesheet" href="css/magnific-popup.css">
    
     <!-- Favicons
 	================================================== -->
     <link rel="shortcut icon" href="images/Pic_VivekTiwari.png">
-    <style> 
-.custom-font ul {
-    overflow: auto;
-}
- 
-.custom-font ul li {
-    list-style-type: none;
-    float: left;
-}
- 
-.custom-font ul li a i {
-    background: #205D7A;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    font-size: 25px;
-    text-align: center;
-    margin-right: 10px;
-    padding-top: 15%;
-    transition: all 0.2s ease-in-out;
-}
-.custom-font .fa-facebook {
-    background:#3b5998
-} 
-.custom-font .fa-linkedin {
-    background:#007bb6
-}
-.custom-font .fa-twitter {
-    background:#00aced
-}
-
-.custom-font ul li a i:hover {
-    opacity: .7;
-}
-</style>
-    
+   
    
 
 </head>
@@ -85,19 +50,20 @@
                 </li>
                 <li><a class="smoothscroll" href="#about">About</a>
                 </li>
-                <li><a class="smoothscroll" href="#project">Projects</a>
+              
+                <li><a class="smoothscroll" href="#workExperience">Experience</a>
                 </li>
-                <li><a class="smoothscroll" href="#workExperience">Works</a>
+                  <li><a class="smoothscroll" href="#project">Projects</a>
                 </li>
-                <li><a class="smoothscroll" href="#portfolio">Resume</a>
+                <li><a class="smoothscroll" href="#portfolio">Works</a>
                 </li>
                 <li><a class="smoothscroll" href="#contact">Contact</a>
                 </li>
             </ul>
-            <!-- end #nav -->
+           
 
         </nav>
-        <!-- end #nav-wrap -->
+       
 
         <div class="row banner">
             <div class="banner-text">
@@ -174,7 +140,7 @@
 
                     <div class="columns download">
                         <p>
-                            <a href="https://drive.google.com/open?id=0Bxco7Y8BX8Ozclo0TXZ3Z3NtZU0" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                            <a href="https://drive.google.com/open?id=0Bxco7Y8BX8OzYVJzSjN1VUJHaHc" class="button"><i class="fa fa-download"></i>Download Resume</a>
                         </p>
                     </div>
 
@@ -190,12 +156,12 @@
     <!-- About Section End-->
 
 
-    <!-- Resume Section
-   ================================================== -->
-    <section id="resume">
+   
+  
+    <section id="education">
 
-        <!-- Education
-      ----------------------------------------------- -->
+       
+    
         <div class="row education">
 
             <div class="three columns header-col">
@@ -242,12 +208,14 @@
             <!-- main-col end -->
 
         </div>
+</section>
         <!-- End Education -->
 
 
+<section id="workExperience">
         <!-- Work
       ----------------------------------------------- -->
-        <div id="workExperience" class="row work">
+        <div class="row work">
 
             <div class="three columns header-col">
                 <h1><span>Work</span></h1>
@@ -329,10 +297,14 @@
 
         </div>
         <!-- End Work -->
+    
+    
 
+</section>
 
+ <section id="project">
         <!-- Project Experience-->
-        <div id="project" class="row work">
+        <div class="row work">
 
             <div class="three columns header-col">
                 <h1><span>Project's</span></h1>
@@ -471,22 +443,50 @@ ETL, data processing and analytics using R and WEKA to get further insight from 
                     </div>
 
                 </div>
-                <!-- item end -->
-                <!-- item end -->
-
 
             </div>
-            <!-- main-col end -->
 
         </div>
-        <!-- End Project -->
-
-        <!-- Skills
-      ----------------------------------------------- -->
+       
+ </section>
 
 
-    </section>
-    <!-- Resume Section End-->
+
+
+ <section id="portfolio">
+
+      <div class="row">
+          
+          <h1>Check Out Some of My Works.</h1>
+
+         <div class="six columns collapsed">
+
+            <div class = "works-port"><a href = "http://teamcore.usc.edu/people/Gsg/index.html" target="_blank"><img src ="images/Gsg_img.png" width="100%"  alt = "Green Security Games" ></a> </div>
+          </div>
+          <div class="six columns collapsed text-portfolio">
+              Green Security Game refers to the general framework to model the repeated and strategic interaction between defenders and adversaries in green security domains such as wildlife protection and fishery protection. While our predictive analytics effort focuses on predicting where adversaries will strike, our prescriptive analytics work provides recommendations to defenders (e.g., rangers) to conduct strategic, randomized patrols.(Copyright @TeamCore Research Lab)
+          </div><hr>
+          
+          
+          <div class="six columns collapsed">
+
+               <div class= "works-port"><a href = "http://teamcore.usc.edu/people/Paws/index.html" target="_blank"><img src ="images/Paws_img.png" width="100%"  alt = "Protection Assistant for Wildlife Security " ></a> </div> 
+            
+          </div>
+          <div class="six columns collapsed text-portfolio">
+             PAWS takes basic information about the protected area and information about previous patrolling and poaching activities as input, and generates patrol routes as output. As the patrollers execute the patrol routes, more poaching data will be collected, and feed back to PAWS. The core algorithm of PAWS integrates learning poachers' behavior model, game-theoretic reasoning and route planning. (Copyright @TeamCore Research Lab)
+          </div>
+          
+             
+            
+             
+
+           
+       
+     </div> <!-- row End -->
+
+</section> <!-- Portfolio Section End-->
+
 
 
 
@@ -560,6 +560,7 @@ ETL, data processing and analytics using R and WEKA to get further insight from 
         window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')
     </script>
     <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
 
   
 
