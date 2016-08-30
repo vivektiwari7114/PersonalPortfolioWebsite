@@ -97,6 +97,10 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
+.text-center {text-align: center;}
+.contact-text{font: 22px; color:#fff;}
+.half-width{width:50%;}
+.full-width{width:100%;}
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -903,6 +907,7 @@ call-to-action .button {
    float: left;
    color: #ebeeee;
 }
+#contact h2{ color:#fff;}
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
@@ -937,7 +942,7 @@ call-to-action .button {
 	outline: none;
    font-size: 15px;
    line-height: 24px;
-   width: 65%;
+   width: 98%;
 }
 #contact input:focus,
 #contact textarea:focus,
