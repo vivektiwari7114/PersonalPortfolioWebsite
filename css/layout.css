@@ -174,6 +174,33 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 66px;
    overflow: hidden;
 }
+.testimonialLast{
+      margin-bottom: -12px;
+    padding-bottom: 56px;
+    border-bottom: 1px solid #E8E8E8;
+    
+}
+
+.testimonialMargin{margin-top: 20px;}
+
+#testimonial {
+   background: #fff;
+   padding-top: 20px;
+   padding-bottom: 66px;
+   
+   overflow: hidden;
+    
+}
+.testimonialLabel {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+}
+
+#testimonial h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #000;
+   margin-bottom: 12px;
+}
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
@@ -259,11 +286,13 @@ padding: 2% 2% 2% 2%;
 #education .header-col { padding-top: 9px; }
 #education .main-col { padding-right: 10%; }
 
-.education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+.education{
+   padding-top: 20px;
+   padding-bottom: 40px;
+   overflow: hidden; 
+     border-bottom: 1px solid #E8E8E8;
 }
+
 #education .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -307,8 +336,8 @@ padding: 2% 2% 2% 2%;
 #workExperience .main-col { padding-right: 10%; }
 
 .workExperience, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
+    padding-top: 20px;
+   padding-bottom: 40px;
    border-bottom: 1px solid #E8E8E8;
 }
 #workExperience .info {
@@ -353,9 +382,17 @@ padding: 2% 2% 2% 2%;
 #project .header-col { padding-top: 9px; }
 #project .main-col { padding-right: 10%; }
 
-.project, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
+.project{
+    padding-top: 20px;
+   padding-bottom: 40px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.work {
+    
+  padding-top: 40px;
+   padding-bottom: 66px;
+   overflow: hidden; 
    border-bottom: 1px solid #E8E8E8;
 }
 #project .info {
@@ -751,6 +788,7 @@ call-to-action .button {
    letter-spacing: 3px;
    color: #fff;
 }
+
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
 #testimonials .header-col h1:before {
